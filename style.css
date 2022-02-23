@@ -1,0 +1,13 @@
+.nav{
+    background-color: #7134fe;
+    
+}
+.nav ul li{
+    display:inline-flex;
+}
+body{
+    margin:0;
+}
+.nav p{
+    margin:0;
+}
