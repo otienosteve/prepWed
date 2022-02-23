@@ -12,6 +12,16 @@ body{
 .nav p{
     margin:0;
 }
+.para{
+    font-size: 20px;
+}
+#paranav{
+    background-color: red;
+}
+#mylist{
+    background-color: orange;
+    width:400px;
+}
 /*
 selector {
 property:value
