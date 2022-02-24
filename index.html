@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STYLING</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css">
 </head>
   <!--
         classes, id
@@ -13,27 +14,65 @@
     -->
 <body>
   
-<div class="nav">
-<ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Services</li>
-</ul>
 
+    <div
+   id="carouselExampleIndicators"
+   class="carousel slide"
+   data-bs-ride="carousel"
+>
+   <div class="carousel-indicators">
+      <button
+         type="button"
+         data-bs-target="#carouselExampleIndicators"
+         data-bs-slide-to="0"
+         class="active"
+         aria-current="true"
+         aria-label="Slide 1"
+      ></button>
+      <button
+         type="button"
+         data-bs-target="#carouselExampleIndicators"
+         data-bs-slide-to="1"
+         aria-label="Slide 2"
+      ></button>
+      <button
+         type="button"
+         data-bs-target="#carouselExampleIndicators"
+         data-bs-slide-to="2"
+         aria-label="Slide 3"
+      ></button>
+   </div>
+   <div class="carousel-inner">
+      <div class="carousel-item active">
+         <img src="..." class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+         <img src="..." class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+         <img src="..." class="d-block w-100" alt="..." />
+      </div>
+   </div>
+   <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+   >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+   </button>
+   <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+   >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+   </button>
 </div>
-<div class="nav para" id="paranav">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima libero expedita veniam accusantium id iure unde, harum commodi beatae magnam ipsam odit quasi aspernatur incidunt debitis, iusto nobis quam nostrum.
-    Assumenda <span class="bolded"> facilis eveniet, adipisci quasi vel ipsum</span> consequuntur possimus cupiditate deleniti aperiam odio minus harum quam sit debitis expedita eaque totam esse voluptates quas iste. Blanditiis recusandae vitae iusto ad.
-    Enim nihil numquam est voluptatibus, impedit cupiditate molestiae labore. Impedit molestiae veritatis adipisci. Sint itaque eaque necessitatibus dolor repellat similique asperiores eius dicta reiciendis, quod repudiandae et animi quibusdam iste?
-    Ipsum porro nobis optio amet, voluptatibus possimus molestias, sint totam recusandae pariatur assumenda exercitationem suscipit. Ipsum aspernatur a error illo magnam dolor optio, tenetur qui odio facere officiis, deserunt nesciunt.
-    Exercitationem, et incidunt impedit modi laudantium iusto numquam tempora iure eligendi fugit unde reprehenderit cumque suscipit commodi porro distinctio id dolore quisquam sunt eveniet veniam? Iusto mollitia eum ad quas.</p>
 </div>
-<div id="mylist">
-    <ul>
-        <li>Monday</li>
-       <span class="tue"> <li>Tuesday</li></span>
-        <li>Wednesday</li>
-    </ul>
-</div>
+
 </body>
 </html>

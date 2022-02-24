@@ -5,6 +5,7 @@
 .nav ul li{
     display:inline-flex;
     margin-right:5px;
+    border-left: 40px solid green;
 }
 .bolded{
     font-weight: bolder;
@@ -13,6 +14,7 @@
 }
 .tue{
     font-size: 30px;
+    margin:50px;
 }
 body{
     margin:0;
@@ -22,6 +24,7 @@ body{
 }
 .para{
     font-size: 20px;
+    padding: 40px;
 }
 #paranav{
     background-color: red;
@@ -29,6 +32,7 @@ body{
 #mylist{
     background-color: orange;
     width:400px;
+    border-left: 70px;
 }
 /*
 selector {
